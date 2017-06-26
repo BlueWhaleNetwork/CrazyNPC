@@ -1,0 +1,18 @@
+name: CrazyNPC
+main: CC\CrazyNPC\CrazyNPC
+api: 
+- 3.0.0
+- 3.0.1
+version: 1.0.0
+author: CC(Whale)
+load: POSTWORLD
+
+
+commands:
+ cnpc:
+  permission: cnpc.command.op
+  description: CrazyNPC设置
+
+permissions:
+ cnpc.command.op:
+  default: op
